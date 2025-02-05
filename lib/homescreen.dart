@@ -13,7 +13,7 @@ class Homescreen extends StatefulWidget {
 }
 
 class _HomescreenState extends State<Homescreen> {
-  int _currentIndex = 3;
+  int _currentIndex = 0;
   final List<Widget> _screens = [
     const Home(),
     const Shope(),
